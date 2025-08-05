@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Profile Container */
+.profile-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Profile Header */
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.profile-job {
+  color: #777;
+  font-size: 16px;
+}
+
+/* Profile Bio */
+.profile-bio {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.profile-bio h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-bio p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Social Media Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #0073b1;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #005f8d;
+}
